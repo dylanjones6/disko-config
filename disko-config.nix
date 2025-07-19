@@ -24,7 +24,7 @@
 		name= "crypted";
 		#extraOpenArgs = [ ];
 		settings = {
-		  keyFile = "/etc/secret.key";
+		  #keyFile = "/etc/secret.key";
 		  allowDiscards = true;
 		};
                 # additionalKeyFiles = [ "/tmp/anotherkey.key" ] ;
